@@ -3,49 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>个人简历 - 聂秋岚</title>
+    <title>聂秋岚的个人空间</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- 导航栏 -->
     <nav class="navbar">
         <div class="nav-container">
-            <div class="nav-logo">聂秋岚</div>
+            <div class="nav-logo">✦ 秋岚的空间</div>
             <ul class="nav-links">
                 <li><a href="#about">关于我</a></li>
-                <li><a href="#education">教育背景</a></li>
+                <li><a href="#life">生活日常</a></li>
                 <li><a href="#experience">实习经历</a></li>
-                <li><a href="#contact">联系方式</a></li>
+                <li><a href="#contact">联系我</a></li>
             </ul>
             <button class="nav-toggle" aria-label="菜单">
-                <span></span>
-                <span></span>
-                <span></span>
+                <span></span><span></span><span></span>
             </button>
         </div>
     </nav>
 
     <!-- Hero 区域 -->
     <header class="hero" id="home">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
         <div class="hero-container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <p class="hero-greeting">你好，我是</p>
-                    <h1 class="hero-name">聂秋岚</h1>
-                    <h2 class="hero-title">运营管理 / 市场营销</h2>
+                    <p class="hero-greeting">嗨，欢迎来到</p>
+                    <h1 class="hero-name">我的小世界</h1>
+                    <h2 class="hero-title">我是聂秋岚 · 上海</h2>
                     <p class="hero-description">
-                        国际经济与贸易专业本科生，致力于在运营管理或市场营销方向长期发展。
+                        国际经济与贸易在读，喜欢记录生活中的小美好。<br>
+                        这里是我的个人空间，记录日常、分享见闻、留存回忆。
                     </p>
                     <div class="hero-buttons">
-                        <a href="#contact" class="btn btn-primary">联系我</a>
-                        <a href="#experience" class="btn btn-secondary">查看经历</a>
+                        <a href="#life" class="btn btn-primary">看看我的生活</a>
+                        <a href="#about" class="btn btn-secondary">认识我</a>
                     </div>
                 </div>
                 <div class="hero-image">
                     <div class="avatar-container">
                         <img src="avatar.jpg" alt="聂秋岚" class="avatar-img">
+                        <div class="avatar-ring"></div>
                     </div>
                 </div>
             </div>
@@ -66,10 +71,10 @@
             <div class="about-content">
                 <div class="about-text">
                     <p>
-                        国际经济与贸易专业本科生，具备多段跨行业运营实习经验，涵盖餐饮、零售、教育及建筑领域。
+                        国际经济与贸易专业本科生，在上海读书生活。喜欢探索城市的角落，享受一杯好咖啡带来的宁静时光。
                     </p>
                     <p>
-                        熟悉门店运营、仓储流程与基础项目管理，参与过商业竞赛全流程策划，具备良好的沟通协作能力与执行力，致力于在运营管理或市场营销方向长期发展。
+                        有过多段跨行业的实习经历，涵盖教育、建筑等领域。每一段经历都让我看到不同的世界，也让我更清楚自己想要什么。
                     </p>
                     <div class="about-stats">
                         <div class="stat">
@@ -81,39 +86,134 @@
                             <div class="stat-label">行业覆盖</div>
                         </div>
                         <div class="stat">
-                            <div class="stat-number">150+</div>
-                            <div class="stat-label">档案管理</div>
+                            <div class="stat-number">上海</div>
+                            <div class="stat-label">所在城市</div>
                         </div>
                     </div>
                 </div>
                 <div class="about-info">
                     <div class="info-item">
-                        <strong>姓名：</strong>
-                        <span>聂秋岚</span>
+                        <span class="info-icon">🌸</span>
+                        <div>
+                            <strong>姓名</strong>
+                            <span>聂秋岚</span>
+                        </div>
                     </div>
                     <div class="info-item">
-                        <strong>城市：</strong>
-                        <span>上海</span>
+                        <span class="info-icon">📍</span>
+                        <div>
+                            <strong>城市</strong>
+                            <span>上海</span>
+                        </div>
                     </div>
                     <div class="info-item">
-                        <strong>邮箱：</strong>
-                        <span>1178281175@qq.com</span>
+                        <span class="info-icon">🎓</span>
+                        <div>
+                            <strong>学校</strong>
+                            <span>上海电机学院</span>
+                        </div>
                     </div>
                     <div class="info-item">
-                        <strong>电话：</strong>
-                        <span>13661999036</span>
+                        <span class="info-icon">📖</span>
+                        <div>
+                            <strong>专业</strong>
+                            <span>国际经济与贸易</span>
+                        </div>
                     </div>
                     <div class="info-item">
-                        <strong>语言：</strong>
-                        <span>中文（母语）</span>
+                        <span class="info-icon">✉️</span>
+                        <div>
+                            <strong>邮箱</strong>
+                            <a href="mailto:1178281175@qq.com">1178281175@qq.com</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- 生活日常 -->
+    <section class="section section-alt" id="life">
+        <div class="container">
+            <h2 class="section-title">生活日常</h2>
+            <p class="section-subtitle">记录生活里那些值得留存的瞬间 ✨</p>
+            <div class="life-grid">
+                <!-- 生活卡片1 -->
+                <div class="life-card">
+                    <div class="life-image">
+                        <div class="life-placeholder">📷</div>
+                    </div>
+                    <div class="life-content">
+                        <span class="life-date">2026年6月</span>
+                        <h3>初夏的上海</h3>
+                        <p>替换提示：点击图片区域放入你的照片，写下你想说的话~</p>
+                        <div class="life-tags">
+                            <span>日常</span>
+                            <span>上海</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 生活卡片2 -->
+                <div class="life-card">
+                    <div class="life-image">
+                        <div class="life-placeholder">☕</div>
+                    </div>
+                    <div class="life-content">
+                        <span class="life-date">2026年5月</span>
+                        <h3>一杯咖啡的时光</h3>
+                        <p>替换提示：分享你喜欢的咖啡馆、美食或者任何日常小确幸</p>
+                        <div class="life-tags">
+                            <span>美食</span>
+                            <span>咖啡</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 生活卡片3 -->
+                <div class="life-card">
+                    <div class="life-image">
+                        <div class="life-placeholder">🌿</div>
+                    </div>
+                    <div class="life-content">
+                        <span class="life-date">2026年4月</span>
+                        <h3>周末散步</h3>
+                        <p>替换提示：记录一次出行、一段旅途或一个悠闲的周末</p>
+                        <div class="life-tags">
+                            <span>出行</span>
+                            <span>周末</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 生活卡片4 -->
+                <div class="life-card">
+                    <div class="life-image">
+                        <div class="life-placeholder">📚</div>
+                    </div>
+                    <div class="life-content">
+                        <span class="life-date">2026年3月</span>
+                        <h3>最近在读</h3>
+                        <p>替换提示：分享你最近读的书、看的剧、听的歌</p>
+                        <div class="life-tags">
+                            <span>阅读</span>
+                            <span>学习</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 生活卡片5 - 留白 -->
+                <div class="life-card life-card-add">
+                    <div class="life-add-icon">+</div>
+                    <p>更多生活记录<br>即将更新...</p>
+                </div>
+                <!-- 生活卡片6 - 留白 -->
+                <div class="life-card life-card-add">
+                    <div class="life-add-icon">+</div>
+                    <p>更多生活记录<br>即将更新...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- 教育背景 -->
-    <section class="section section-alt" id="education">
+    <section class="section" id="education">
         <div class="container">
             <h2 class="section-title">教育背景</h2>
             <div class="timeline">
@@ -138,7 +238,7 @@
     </section>
 
     <!-- 实习经历 -->
-    <section class="section" id="experience">
+    <section class="section section-alt" id="experience">
         <div class="container">
             <h2 class="section-title">实习经历</h2>
             <div class="timeline">
@@ -147,7 +247,7 @@
                     <div class="timeline-content">
                         <div class="timeline-header">
                             <h3>教学辅导实习生</h3>
-                            <span class="timeline-date">2025-05 ~ 2025-08</span>
+                            <span class="timeline-date">2025.05 ~ 2025.08</span>
                         </div>
                         <h4>小学课外辅导</h4>
                         <ul>
@@ -162,7 +262,7 @@
                     <div class="timeline-content">
                         <div class="timeline-header">
                             <h3>工程项目管理实习生</h3>
-                            <span class="timeline-date">2026-01 ~ 2026-03</span>
+                            <span class="timeline-date">2026.01 ~ 2026.03</span>
                         </div>
                         <h4>贵州昇日辉建筑劳务服务有限公司</h4>
                         <ul>
@@ -178,37 +278,29 @@
     </section>
 
     <!-- 联系方式 -->
-    <section class="section section-alt" id="contact">
+    <section class="section" id="contact">
         <div class="container">
-            <h2 class="section-title">联系方式</h2>
+            <h2 class="section-title">联系我</h2>
             <div class="contact-content">
                 <div class="contact-info">
-                    <p>如果你对我感兴趣，或者有任何合作机会，欢迎随时联系我！</p>
+                    <p>如果你想和我聊天、分享生活、或者有任何合作机会，欢迎随时联系我！</p>
                     <div class="contact-items">
                         <div class="contact-item">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                                <polyline points="22,6 12,13 2,6"/>
-                            </svg>
+                            <span class="contact-icon">✉️</span>
                             <div>
                                 <h4>邮箱</h4>
                                 <a href="mailto:1178281175@qq.com">1178281175@qq.com</a>
                             </div>
                         </div>
                         <div class="contact-item">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
-                            </svg>
+                            <span class="contact-icon">📱</span>
                             <div>
                                 <h4>电话</h4>
                                 <a href="tel:13661999036">13661999036</a>
                             </div>
                         </div>
                         <div class="contact-item">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
-                                <circle cx="12" cy="10" r="3"/>
-                            </svg>
+                            <span class="contact-icon">📍</span>
                             <div>
                                 <h4>地址</h4>
                                 <span>上海</span>
@@ -224,10 +316,7 @@
                         <input type="email" name="email" placeholder="你的邮箱" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" name="subject" placeholder="主题" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea name="message" rows="5" placeholder="留言内容" required></textarea>
+                        <textarea name="message" rows="5" placeholder="想对我说的话..." required></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary btn-full">发送消息</button>
                 </form>
@@ -238,7 +327,8 @@
     <!-- 页脚 -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 聂秋岚. All rights reserved.</p>
+            <p>✦ 聂秋岚的个人空间 · 用心记录每一天</p>
+            <p class="footer-sub">&copy; 2026 All rights reserved.</p>
         </div>
     </footer>
 
